@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;   /*puse una extension pa que sirva este tipo de letra*/
+}
+
+.primeraParte {
+    background-image: url('./fondito.png');
+    background-size: cover; /* Ajusta la imagen al 100% del ancho y alto de la ventana */
+    background-repeat: no-repeat; /* Evita que la imagen se repita n veces*/
+    height: 100vh;
+}
+
+.navbar {
+    overflow: hidden; /*controla lo que se sobre sale, 
+    cualquier contenido que exceda los límites del contenedor será ocultado y no será visible,
+    no se porque pero a mi no me lo oculto solo me lo bajo xd*/
+    font-size: 25px; /*tama;ito del contenido */
+}
+
+.navbar a {
+    float: left; /*se separan*/
+    display: block; /*se separa en bloques*/
+    color: black;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;  /*quita la subrayado de los enlaces*/
+}
+
+.navbarLinks {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#logo {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+#home {
+    font-weight: bolder;
+}
+
+#nombre {
+    font-size: 140px;
+    font-weight: bolder;
+    display: block;
+    margin-top: 50px; 
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#subTitulo {
+    font-size: 60px;
+    font-weight: normal;
+    display: block;
+    margin-top:0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.contenido {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conceptos-cualidades {
+    display: flex;
+    gap: 100px; /* Espacio entre los elementos */
+    margin-top: 15px; /* Espacio entre nombre/subtitulo y conceptos/cualidades */
+}
+
+.contenedor {
+    font-size: 30px;
+    width: 500px;
+    margin: 0;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.cualidades p {
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+.linea {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.compra {
+    font-size: 60px;
+    text-align: center;
+}
+
+.cualidades p .numCualidad {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.otraSeccion {
+    background-color: aqua;
+    height: 130vh;
+}
